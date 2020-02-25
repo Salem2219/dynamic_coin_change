@@ -19,7 +19,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
 
     ```sh
     $ cd projects
-    $ git clone https://github.com/ihabadly/dynamic_coin_change.git
+    $ git clone https://github.com/Salem2219/dynamic_coin_change.git
     ```
 2. Use Visual Studio Code (VSC) to edit and view the design files:
 
