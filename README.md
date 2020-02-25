@@ -41,10 +41,10 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     $ vcom *.vhd
     ```
     
-5. Simulate your design. For example, A = 12:
+5. Simulate your design. For example, A = 12. Note : the denom array contents is specified in rom_4x4bit.vhd:
 
     ```sh
-    $ vsim work.fibo_toplevel_tb
+    $ vsim work.tb
     ```
 6. Add the following commands to the transcript
 ```sh
