@@ -4,7 +4,7 @@ the data stored in in denom array that specifies the denominations of the coins,
 and an Amount A(4 bits). The output is an array C whose value,C[i][j], is the minimum number of coins to make change for the amount j,
 using coins i through n(4 bits), 1<=i<=n, 0<=j<=A.
 
-##Notes :
+## Notes :
 - The denom array is rom/ram 4 x 4 bits.
 - The denom array indices should start from 0 to 3, but the program works on indices from 1 to 3.
 - The C matrix rows indices should start from 0 to 3, but the program works on rows indices from 1 to 3.
